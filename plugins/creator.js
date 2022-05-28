@@ -8,14 +8,14 @@ const q = {
 	},
 	"message": {
 		"contactMessage": {
-			"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;Nakata Ganteng;;;FN:Elyas Ganteng\nORG:Nakata Ganteng;\nTEL;type=CELL;type=VOICE;waid=6285748894171:+62 857-4889-4171\nEND:VCARD"
+			"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;Danz Kontol;;;FN:Danz Kontol\nORG:Danz Kontol;\nTEL;type=CELL;type=VOICE;waid=6288270863279:+62 882-7086-3279\nEND:VCARD"
 		}
 	},
 	"participant": "0@s.whatsapp.net"
 }
 
-conn.sendContact(m.chat, '6285748894171', 'Nakataa', m)
-m.reply(m.chat,'*Tuh nomor owner ku tersayang*\n*Chat jika PENTING*', q)
+conn.sendContact(m.chat, '6288270863279', 'Danzz.', m)
+m.reply(m.chat,'*Tuh nomor owner terkontol sedunia*\n*Chat jika PENTING*', q)
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
